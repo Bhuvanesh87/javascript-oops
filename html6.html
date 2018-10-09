@@ -1,0 +1,25 @@
+<script>
+class Member
+{
+     constructor(name)
+     {
+       this.name=name;
+         
+    }
+}
+class Colony extends Member
+{
+    constructor(name,colony,number,house)
+    {
+        super(name);
+        this.colony=colony; 
+         this.number=number; 
+        this.house=house;
+    }
+    
+}
+var c1=new Colony("Bhuvanaesh","btm",8686863385,5);
+var c2 = new Colony("Fun","hitnumberesh",89098);
+
+document.write(c2.name+" "+c2.colony+" "+c1.number+" "+c1.house);
+</script>

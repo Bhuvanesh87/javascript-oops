@@ -1,0 +1,24 @@
+<script>
+  function Employee(name)
+  {
+      this.name=name;
+  }     
+  Employee.prototype.getName=function()
+  {
+      return this.name;
+  }
+  var e1=new Employee("Bhuvanesh");
+  var e2=new Employee("Ankur");
+  var e3=new Employee("Anji");
+  var e4=new Employee("Mahesh");
+  document.write("Employee1 : "+e1.getName()+"<br/>");
+  document.write("Employee2 : "+e2.getName()+"<br/>");
+  document.write("Employee3 : "+e3.getName()+"<br/>");
+  document.write("Employee4 : "+e4.getName()+"<br/>");
+
+
+
+
+
+
+</script>
